@@ -1,0 +1,118 @@
+.contain {
+    /* background: red; */
+}
+
+
+.footer .marcas {
+    width: 960px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    /* height: 175px; */
+}
+
+.footer .marcas .puma {
+    /* margin-bottom: 20px; */
+}
+
+@media (max-width:1050px){
+    .footer .marcas img{
+         width:  calc(5vw + 6rem);
+      
+        
+    
+    }
+    .footer .marcas {
+        width: 100%;
+        display: grid;
+       grid-template: 1fr 1fr / 1fr 1fr; 
+       justify-content: space-between;
+        justify-items: center;
+      
+      
+    }
+}
+
+.footer .TextFooter {
+    color: white;
+    background: #4a4d53;
+    width: 100%;
+    /* height: 329px; */
+    margin: auto;
+    padding: 20px;
+}
+
+.footer .TextFooter .footerLetreiro {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    max-width: 960px;
+    margin: auto;
+    gap: 70px;
+}
+
+.footer .TextFooter .footerLetreiro h1 {
+    font-size: 22px;
+    margin: 45px 0 23px 0px;
+}
+
+zz .footer .TextFooter .footerLetreiro p,
+span {
+    font-size: 15px;
+
+}
+
+
+
+.footer .footerEnd {
+    background: #28241f;
+    /* height: 86px; */
+    width: 100%;
+    color: white;
+
+}
+
+.alinharFooter {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.alinharFooter .nav-redes {
+    display: flex;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+@media(max-width:1050px) {
+    .footer .TextFooter .footerLetreiro{
+    display: grid;
+    grid-template: 1fr 1fr /1fr 1fr;
+
+    }
+
+    .alinharFooter{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+
+    }
+    .copy{
+        font-size: calc(0.1vw + 1rem);
+    }
+}
+.contain {
+    /* background: red; */
+}
+
+
+@media(max-width:500px){
+    .copy{
+        font-size: 3vw;
+    }
+}

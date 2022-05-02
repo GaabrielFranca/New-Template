@@ -1,0 +1,185 @@
+.contain {
+    /* background: red;
+    width: 100%; */
+}
+
+.section1 {
+    /* width: 100%; */
+    height: 544px;
+}
+
+.section1 .letreiro-section1 {
+    margin-top: 50px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; 
+} */
+}
+
+.section1 .letreiro-section1 h1 {
+    text-transform: uppercase;
+    font-size: 20pt;
+    margin-bottom: 29px;
+    text-align: center;
+}
+
+.section1 .letreiro-section1 span {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.section1 .images-text {
+    /* align-items: center; */
+    margin-top: 48px;
+    display: flex;
+    gap: 40px;
+    padding-bottom: 27px;
+}
+
+.section1 .images-text .agrupar-text {
+
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.section1 .images-text .agrupar-text.texto-centro {
+    margin-top: 84px;
+}
+
+.section1 .images-text .agrupar-text h3 {
+
+    font-size: 18pt;
+}
+
+@media (max-width:800px) {
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .section1 .images-text {
+        display: flex;
+        flex-direction: column;
+        /* gap: 0; */
+    }
+
+    .section1 .images-text .agrupar-text.texto-centro {
+        margin-top: 0;
+    }
+}
+
+.retangulo {
+    width: 82px;
+    height: 47px;
+    margin: auto;
+    background: #ffff;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 60px solid #eeeeee;
+}
+
+
+
+
+
+.section2 {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    /* height: 668px; */
+    background: #eeeeee;
+    padding: 1px 0 49px 0;
+
+}
+
+.section2 .Cards-images img {
+    width: 310px;
+    height: 280px;
+
+}
+
+.section2 .Cards-images {
+    transition: 0.8s;
+}
+
+.section2 .Cards-images:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.section2 .Cards-images h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.section2 .Cards-images p {
+    width: 246px;
+    font-size: 10px;
+}
+
+.section2 .Cards-images {
+    position: relative;
+
+}
+
+.section2 .letreiro-cards {
+    position: absolute;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    /* width: 250px; */
+
+    bottom: 24px;
+}
+
+.contain {
+    /* background: red; */
+}
+
+.grid-container {
+
+    max-width: 960px;
+    width: 100%;
+    display: grid;
+
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 27px;
+    margin-top: 50px;
+    /* position: absolute; */
+    top: 0
+}
+
+@media(max-width:1050px) {
+    .section2 {
+        display: flex;
+    }
+
+    .grid-container {
+
+        max-width: 645px;
+        margin: auto;
+        display: grid;
+
+        grid-template: 1fr 1fr/ 1fr 1fr;
+        /* gap: 27px; */
+        margin-top: 50px;
+        /* position: absolute; */
+        top: 0
+    }
+}
+
+@media(max-width:700px) {
+
+    .grid-container {
+        grid-template: 1fr / 1fr;
+        width: 100%;
+        margin-top: 24px;
+        height: 100%;
+        justify-content: center;
+    }
+}
